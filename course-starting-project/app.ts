@@ -1,3 +1,4 @@
+import fs from "node:fs";
 const element = document.getElementById("some-element") as HTMLInputElement;
 
 console.log(element.value);
